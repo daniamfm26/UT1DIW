@@ -8,6 +8,14 @@
     <!-- Bootstrap CSS mediante CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style> 
+        .fondorojo{
+            background: red;
+        }
+        .fondoazul{
+            background: blue;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -17,13 +25,63 @@
     <div class="container-fluid">
         Un contenedor responsivo con ancho completo
     </div>
-
+    <br>
     <h2>Sistema de rejilla para dispositivos pequeños</h2>
     <div class="row">
         <div class="col-sm-4">Columna de tamaño 4 para dispositivos pequeños</div><br>
         <div class="col-sm-4">Columna de tamaño 4 para dispositivos pequeños</div><br>
         <div class="col-sm-4">Columna de tamaño 4 para dispositivos pequeños</div>
-
     </div>
+    <br>
+    <h2>Distribuciones adaptables a diferentes dispositivos</h2>
+    <div class="row">
+        <div class="col-6 col-sm-9 bg-primary" >col-6 col-sm-9</div>
+        <div class="col-6 col-sm-3 bg-info">col-6 col-sm-3</div>
+    </div>
+    <br>
+
+
+    <kbd>Escritura tipo teclado</kbd>
+    <br>
+    <br>
+
+    <mark>Texto resaltado</mark>
+    <br>
+
+    <h2 class="display-3">Encabezado h2 con la clase display</h2>
+    <br>
+
+    <blockquote class="text-warning">Cita de texto con la clase text-warning</blockquote>
+    <br>
+    <code>var i=100</code>
+
+    <h2>Imagen responsiva</h2>
+    <img src="img/imagen.jpg" class="img-fluid rounded mx-auto d-block">
+
+    <table class="table table-responsive-md">
+        <thead>
+            <tr>
+                <th>Nombre: </th>
+                <th>Apellidos: </th>
+                <th>Ciclo: </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Dania</th>
+                <th>Martínez</th>
+                <th>DAW</th>
+            </tr>
+
+            <tr>
+                <th>Lo que sea</th>
+                <th>Lo que sea</th>
+                <th>Lo que sea</th>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
 </body>
 </html>
